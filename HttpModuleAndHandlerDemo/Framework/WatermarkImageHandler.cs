@@ -9,6 +9,9 @@ using System.Web.Routing;
 #endregion
 namespace HttpModuleAndHandlerDemo.Framework
 {
+    /// <summary>
+    /// http://www.hanselman.com/blog/BackToBasicsDynamicImageGenerationASPNETControllersRoutingIHttpHandlersAndRunAllManagedModulesForAllRequests.aspx
+    /// </summary>
     public class WatermarkImageHandler : IRouteHandler, IHttpHandler
     {
         #region RouteHandler
